@@ -1,0 +1,26 @@
+.home {
+    padding: 20px;
+    .filterWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        gap: 20px;
+    }
+    .dogList {
+        .imgCover {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 50%;
+            img {
+                width: 100%;
+            }
+        }
+        .favorite-icon {
+            cursor: pointer;
+            color: #ff5757;
+        }
+    }
+}

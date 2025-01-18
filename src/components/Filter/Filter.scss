@@ -1,0 +1,21 @@
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .filterItem {
+        width: 200px;
+    }
+    .reset {
+        color: #1976d2;
+        align-self: flex-end;
+        font-size: 20px;
+        padding: 0 10px 5px;
+        span {
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
